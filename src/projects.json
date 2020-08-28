@@ -1,0 +1,16 @@
+[
+	{
+		"name": "Kangaroo Leasing",
+		"route": "kangroo-leasing",
+		"deployed": true,
+		"deployedURL": "https://kangarooleasing.herokuapp.com/",
+		"githubURL": "https://github.com/colin-green/Kangaroo-Leasing"
+	},
+	{
+		"name": "Markdown Previewer",
+		"route": "markdown-previewer",
+		"deployed": true,
+		"deployedURL": "https://markdown-previewer-cmg.herokuapp.com/",
+		"githubURL": "https://github.com/colin-green/Markdown-Previewer"
+	}
+]
