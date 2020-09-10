@@ -1,5 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&display=swap'); /* font-family: 'Nanum Myeongjo', serif; */
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap'); /* font-family: 'Gayathri', sans-serif; */
+
 .App {
 	text-align: center;
+	background-color: rgb(64, 64, 64);
+	height: 100%;
 }
 
 nav {
@@ -11,9 +16,94 @@ nav {
 }
 
 .nav-links {
-	width: 50%;
+	/* width: 50%; */
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
 	list-style: none;
+	font-size: 24px;
+	font-family: 'Gayathri', sans-serif;
+	margin-top: 24px;
+}
+
+.project-detail-link {
+	font-size: 48px;
+	font-family: 'Gayathri', sans-serif;
+}
+
+.title {
+	margin-bottom: 24px;
+	color: rgb(200, 255, 200);
+	font-family: 'Gayathri', sans-serif;
+	/* font-family: 'Nanum Myeongjo', serif; */
+}
+
+.description {
+	font-size: 20px;
+	color: rgb(200, 255, 200);
+	font-family: 'Nanum Myeongjo', serif;
+	font-weight: 700;
+}
+
+.project-img {
+	margin: 24px 0 24px 0;
+	max-width: 100%;
+	max-height: 100%;
+}
+
+.my-name {
+	color: rgb(0, 64, 0);
+	font-family: 'Gayathri', sans-serif;
+	margin-top: 24px;
+}
+
+.my-name:hover {
+	text-decoration: none;
+}
+
+.profile-pic {
+	max-width: 100%;
+	max-height: 100%;
+	border: 1px solid rgb(200, 255, 200);
+}
+
+.about-link {
+	color: lightblue;
+}
+.about-link:hover {
+	color: lavender;
+}
+
+.project-link {
+	font-family: 'Gayathri', sans-serif;
+	font-size: 22px;
+}
+
+.project-link:hover {
+	text-shadow: 1px 1px 5px white;
+}
+
+.phantom {
+	display: block;
+	padding: 20px;
+	height: 60px;
+	width: 100%;
+}
+
+.footer {
+	background-color: lightgreen;
+	border-top: 1px solid #e7e7e7;
+	font-family: 'Gayathri', sans-serif;
+	font-size: 20px;
+	text-align: center;
+	padding: 20px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	height: 60px;
+	width: 100%;
+}
+
+.footer-link {
+	color: rgb(0, 64, 0);
 }

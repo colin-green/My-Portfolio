@@ -1,16 +1,173 @@
 [
 	{
-		"name": "Kangaroo Leasing",
-		"route": "kangroo-leasing",
-		"deployed": true,
-		"deployedURL": "https://kangarooleasing.herokuapp.com/",
-		"githubURL": "https://github.com/colin-green/Kangaroo-Leasing"
-	},
-	{
 		"name": "Markdown Previewer",
 		"route": "markdown-previewer",
 		"deployed": true,
 		"deployedURL": "https://markdown-previewer-cmg.herokuapp.com/",
-		"githubURL": "https://github.com/colin-green/Markdown-Previewer"
+		"githubURL": "https://github.com/colin-green/Markdown-Previewer",
+		"image": "Markdown-mark.svg",
+		"description": "This Markdown Previewer will convert any Markdown formatting in the left-hand input area and convert it into rendered Markdown in the right-hand display area. Made with React.js."
+	},
+	{
+		"name": "Burger Builder",
+		"route": "burger-builder",
+		"deployed": false,
+		"deployedURL": "",
+		"githubURL": "https://github.com/colin-green/Burger-Builder",
+		"image": "burger-builder.png",
+		"description": "Use the buttons at the bottom of the page to add ingredients to your burger such as meat, cheese, and bacon. The price of your burger updates as you go, and you can click the \"Checkout\" button when you're done! Made with React.js."
+	},
+	{
+		"name": "Random Quote Generator",
+		"route": "random-quote-generator",
+		"deployed": false,
+		"deployedURL": "",
+		"githubURL": "https://github.com/colin-green/Random-Quote-Generator",
+		"image": "quotation-mark.jpg",
+		"description": "An app that serves up a random inspirational or famous quote on the click of a button. You can also click the Tweet button to have it take you to Twitter.com and draft up a Tweet! Made with React.js."
+	},
+	{
+		"name": "Calculator",
+		"route": "calculator",
+		"deployed": false,
+		"deployedURL": "",
+		"githubURL": "https://github.com/colin-green/React-Calculator",
+		"image": "calculator.png",
+		"description": "Exactly what it sounds like! A calculator app that was made with React.js."
+	},
+	{
+		"name": "Clicky Game",
+		"route": "clicky-game",
+		"deployed": false,
+		"deployedURL": "",
+		"githubURL": "https://github.com/colin-green/Clicky-Game",
+		"image": "click.png",
+		"description": "A React-based game: there are 12 unique cards, and you must click on each one only once. Here's the catch: the order of the cards is randomized with each click!"
+	},
+	{
+		"name": "Kangaroo Leasing",
+		"route": "kangroo-leasing",
+		"deployed": true,
+		"deployedURL": "https://kangarooleasing.herokuapp.com/",
+		"githubURL": "https://github.com/colin-green/Kangaroo-Leasing",
+		"image": "LogoOne.png",
+		"description": "Kangaroo Leasing is an app through which users can find existing leases for living accomodations and adopt them. It connects leaseholders or landlords to those looking for somewhere to stay for at least 2 months in the Metro Atlanta area. Simply search for a place using different criteria (leasers), or make a listing for a place that has an available lease (leaseholders)."
+	},
+	{
+		"name": "TraveLite",
+		"route": "travelite",
+		"deployed": false,
+		"deployedURL": "",
+		"githubURL": "https://github.com/colin-green/TraveLite",
+		"image": "Beach.jpg",
+		"description": "A website where users can plan their next vacation. They enter in a place they would like to visit, as well as their origin city, and are returned cheapest flight prices, images, and upcoming weather about their destination."
+	},
+	{
+		"name": "Krusty Krab Online",
+		"route": "krusty-krab-online",
+		"deployed": true,
+		"deployedURL": "https://thekrustykrab.herokuapp.com/",
+		"githubURL": "https://github.com/illimitableissi/The-Krusty-Krab",
+		"image": "Krusty_Krab_230b.png",
+		"description": "An online ordering storefront for the fictional restaurant \"The Krusty Krab.\" Add items to your cart, which updates the price as well, and click \"Checkout\" when you're done to receive a recipt for your order. Uses HTML, CSS, Javascript, and MySQL."
+	},
+	{
+		"name": "Bamazon",
+		"route": "bamazon",
+		"deployed": false,
+		"deployedURL": "",
+		"githubURL": "https://github.com/colin-green/Bamazon",
+		"image": "Bamazon.png",
+		"description": "A command line-based online storefront where you can buy items, whose quantity then changes in a MySQL database. Also uses JavaScript and node.js."
+	},
+	{
+		"name": "LIRI",
+		"route": "liri",
+		"deployed": false,
+		"deployedURL": "",
+		"githubURL": "https://github.com/colin-green/LIRI-Node-App",
+		"image": "Siri.png",
+		"description": "LIRI stands for \"Language Interpretation & Recognition Interface\" and has 4 commands that allow users to get information on artists, songs, and movies. Check out the README for instructions on how to use it."
+	},
+	{
+		"name": "Friend Finder",
+		"route": "friend-finder",
+		"deployed": true,
+		"deployedURL": "https://friend-finder-cmg.herokuapp.com/",
+		"githubURL": "https://github.com/colin-green/Friend-Finder",
+		"image": "Friends.jpg",
+		"description": "An app where users can take a survey and then get matched against the potential \"friends\" in the database to find the best match for them."
+	},
+	{
+		"name": "Eat Da Burger!",
+		"route": "eat-da-burger",
+		"deployed": true,
+		"deployedURL": "https://eat-da-burger-cmg.herokuapp.com/",
+		"githubURL": "https://github.com/colin-green/Eat-Da-Burger",
+		"image": "t-mcdonalds-Hamburger.jpg",
+		"description": "An app where you can add whatever burger you want to your collection, and then eat it with the click of a button! The burger information is maintained in a Mongo database."
+	},
+	{
+		"name": "WoW DPS/DPM",
+		"route": "wow-dps-dpm",
+		"deployed": true,
+		"deployedURL": "https://colin-green.github.io/WoW-DPS-DPM/",
+		"githubURL": "https://github.com/colin-green/WoW-DPS-DPM",
+		"image": "WoW.jpg",
+		"description": "Takes in the user's input of spell data to calculate the damage (or healing) per second and damage (or healing) per mana of different spells. Try it out! Uses Materialize CSS and JavaScript."
+	},
+	{
+		"name": "Train Scheduler",
+		"route": "train-scheduler",
+		"deployed": true,
+		"deployedURL": "https://colin-green.github.io/Train-Scheduler/",
+		"githubURL": "https://github.com/colin-green/Train-Scheduler",
+		"image": "Train.jpg",
+		"description": "A train scheduler that uses Google's Firebase to store the train information, including the train's name, destination, frequency, next arrival, and time until the next train. Try adding some trains!"
+	},
+	{
+		"name": "Crystal Collector Game",
+		"route": "crystal-collector-game",
+		"deployed": true,
+		"deployedURL": "https://colin-green.github.io/Crystal-Collector-Game/",
+		"githubURL": "https://github.com/colin-green/Crystal-Collector-Game",
+		"image": "Crystals.jpg",
+		"description": "Try to guess the Magic Number! There are four crystals, each with a different hidden value. Click on one to add its value to your score. You win if you can get your score to match the Magic Number; you lose if your score goes above the Magic Number. The value of each crystal is hidden from you until you click on it. For an added challenge, try to win with as few clicks as possible! There's a new Magic Number and crystal values with each new game. Made using HTML, CSS, and Javascript."
+	},
+	{
+		"name": "Smash Bros. Trivia Game",
+		"route": "trivia-game",
+		"deployed": true,
+		"deployedURL": "https://colin-green.github.io/TriviaGame/",
+		"githubURL": "https://github.com/colin-green/TriviaGame",
+		"image": "Super-Smash-Bros-meele.jpg",
+		"description": "A timed trivia game about the Super Smash Bros. Series! How well do you know your stuff?  Made using HTML, CSS, and Javascript."
+	},
+	{
+		"name": "Psychic Guessing Game",
+		"route": "psychic-game",
+		"deployed": true,
+		"deployedURL": "https://colin-green.github.io/Psychic-Game/",
+		"githubURL": "https://github.com/colin-green/Psychic-Game",
+		"image": "Crystal Ball.jpg",
+		"description": "Use the keyboard to try to figure out the secret letter. Be careful, though: you only have 10 guesses. Made using HTML, CSS, and Javascript."
+	},
+	{
+		"name": "Hangman",
+		"route": "hangman",
+		"deployed": true,
+		"deployedURL": "https://github.com/colin-green/Hangman-Game",
+		"githubURL": "https://github.com/colin-green/Hangman-Game",
+		"image": "Hangman.jpg",
+		"description": "Use the keyboard to try to guess the letters of the hidden word. Be careful, though: you only have 10 guesses. Made using HTML, CSS, and Javascript."
+	},
+	{
+		"name": "GIF Finder",
+		"route": "gif-finder",
+		"deployed": true,
+		"deployedURL": "https://colin-green.github.io/GIF-Finder/",
+		"githubURL": "https://github.com/colin-green/GIF-Finder",
+		"image": "giphy-logo.png",
+		"description": "Uses giphy.com's API to procure a list of GIFs depending on which button you click. The individual GIFs won't start playing until you click on them. Click on them again to stop them."
 	}
 ]
