@@ -29,12 +29,11 @@ const footer = props => {
 					</Col>
 					<Col>
 						<a
-							href='mailto:cgreen72593@gmail.com'
-							target='_blank'
+							href='mailto:colinmgreen7@gmail.com'
 							rel='noopener noreferrer'
 							className='footer-link'
 						>
-							cgreen72593@gmail.com
+							colinmgreen7@gmail.com
 						</a>
 					</Col>
 					<Col>(407) 463-9063</Col>
