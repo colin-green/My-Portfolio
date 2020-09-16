@@ -59,7 +59,7 @@ function about() {
 							className='description'
 							style={{ fontSize: '18px', color: 'rgb(200, 255, 200)' }}
 						>
-							I graduated from a Full Stack Web Development Bootcamp at Georgia
+							I graduated from a Full Stack Web Development Program at Georgia
 							Tech. I have completed many assignments in which I had to create a
 							functioning website with a certain goal in mind. I also have some
 							group and individual projects under my belt as well. Feel free to
